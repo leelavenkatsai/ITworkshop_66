@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+  }
+  .flex-container {
+      display: -webkit-flex;
+      display: flex;  
+      -webkit-flex-flow: row wrap;
+      flex-flow: row wrap;
+      text-align: center;
+  }
+  
+  .flex-container > * {
+      padding: 150px;
+      -webkit-flex: 1 200%;
+      flex: 1 200%;
+  }
+  .nav ul {
+      list-style-type: none;
+      padding: 15px;
+  }
+  h1 a{
+      color: coral;
+      text-align:center;
+      text-decoration: none;
+      font-style: oblique;
+  
+  }
+  .block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .block:hover {
+    background-color: lightgrey;
+  }
