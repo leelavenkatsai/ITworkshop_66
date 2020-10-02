@@ -1,7 +1,6 @@
 body {
      background-color: lightblue;
 }
-
 a {
     text-decoration: none;
     color: green;
@@ -53,6 +52,7 @@ p{
     margin-right: auto;
     background-color:lightgray;
     text-align: justify;
+    
 }
 
 #footer {
