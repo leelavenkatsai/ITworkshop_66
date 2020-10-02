@@ -1,0 +1,40 @@
+div {
+    border: 1px solid black;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+   
+  }
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+body { 
+    background-color:lightgrey;
+  }
+p.round {
+    border: 8px solid skyblue;
+    border-radius: 20px;
+    text-align: center;
+    color: red;
+    font-size: 25px;
+}
+ul.a {
+    list-style-type: square;
+  }
+  table, td, th {  
+    border: 5px solid black;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 15px;
+  }

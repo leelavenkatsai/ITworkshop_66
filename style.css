@@ -24,6 +24,10 @@ body {
       text-decoration: none;
       font-style: oblique;
    }
+
+   a {
+     text-decoration: none;
+   }
   .block {
     display: block;
     width: 100%;
