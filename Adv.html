@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing:border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  padding: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+.large-font {
+  font-size: 48px;
+}
+
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1><b>Burma Bridge</b></h1>
+      <h2><p> Hung 70 meters above the ground, the Burma Bridge is a must try. The peppy yellow coloured ropes and wires will seem like child’s play to cross.But not.
+</p></h2>
+    </div>
+    <div class="column-33">
+        <img src="burma.jpg" width="335" height="471">
+    </div>
+  </div>
+</div>
+
+<div class="container" style="background-color:yellow">
+  <div class="row">
+    <div class="column-33">
+      <img src="zipliner.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1><b>Zip liner
+</b></h1>
+      <h2><p>The Zip Liner is reward for crossing the Burma Bridge successfully. Once you reach the other end of the Bridge, you are bought to the initial position via a Zip Line.
+</p></h2>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="column-66">
+      <h1 class="xlarge-font"><b>Rope walking
+</b></h1>
+      <h2><p>This adventure activity takes place 50 meters above the ground. You will be tied up to a rope with safety gears and have to reach the other end by pulling yourself to the end with the wire.
+.</p></h2>
+    </div>
+    <div class="column-33">
+        <img src="rope walking.jpg" width="335" height="471" >
+    </div>
+  </div>
+</div>
+<div class="container" style="background-color:#f1f1f1">
+  <div class="row">
+    <div class="column-33">
+      <img src="kayaking.jpg" alt="App" width="335" height="471">
+    </div>
+    <div class="column-66">
+      <h1><b>kayaking</b></h1>
+      <h2><p>Paddling our way into a beautiful lake cocooned in greenery, the calmness and beauty around you are so attractive and appealing that you do not want to leave.
+</p></h2>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
